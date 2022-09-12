@@ -124,7 +124,7 @@ main section{
     z-index: 100;
 }
 .main-img img{
-    width: 500px;
+    width: 300px;
     transform: rotate(7deg);
 }
 
@@ -134,7 +134,7 @@ main section{
     position:fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 110%;
     height: 100%;
     background: #445c42;
     clip-path: circle(800px at right 1000px);
