@@ -27,11 +27,14 @@ a:hover{
 #header{
     box-sizing: border-box;
     height: 70px;
+    width: 100%;
     padding: 1rem;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #e7e7e7;
+    box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 #menu{
     display: flex;
@@ -117,3 +120,5 @@ a:hover{
         top: -7px;
     }
 }
+/*Header finalizado*/
+
