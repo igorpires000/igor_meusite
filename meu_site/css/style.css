@@ -7,13 +7,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 a{
     color: black;
     text-decoration: none;
 }
 a:hover{
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(59, 57, 54, 0.8);
 }
 #logo{
     font-size: 1.5rem;
@@ -34,14 +33,13 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     background-color: #e7e7e7;
-    box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow:  4px 4px 4px 4px rgba(231, 231, 231, 0.4);
 }
 #menu{
     display: flex;
     list-style: none;
     gap: .5rem;
 }
-
 #menu a{
     display: block;
     padding: .5rem;
@@ -69,13 +67,11 @@ a:hover{
        transition: 0s;
        z-index: 1000;
        height: 0px;
-       visibility: hidden;
-       
+       visibility: hidden; 
     }
     #nav.active #menu{
         height: calc(100vh-70px);
-        visibility: visible;
-        
+        visibility: visible;  
     }
     #menu a{
         padding: 1rem 1rem;
@@ -111,9 +107,11 @@ a:hover{
     }
     #nav.active #burger{
         border-top-color: transparent ;
+        
     }
     #nav.active #burger::before{
         transform: rotate(135deg);
+        
     }
     #nav.active #burger::after{
         transform: rotate(-135deg);
@@ -121,4 +119,68 @@ a:hover{
     }
 }
 /*Header finalizado*/
+body{
+    overflow-x: hidden;
+    background-color: rgba(59, 57, 54, 1);
+}
+hr{
+    max-width: 80%;
+    margin: auto;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30rem;   
+}
+.title-1{
+    position:static;
+    width: 300px ;
+    text-align: center;
+    margin-right: 10rem;
+}
+.title-1 h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    box-shadow: 4px 4px 4px 4px rgba(231, 231, 231, 0.2);
+}
+.abount{
+    width: 100vw;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e7e7e7;    
+}
+.abount img{
+    margin-bottom: 5rem;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.abount img:hover{
+    transform: rotateY(360deg) ;
+}
+.abount p{
+    width: 30vw;
+    max-height:300px;
+    color: #e7e7e7;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.abount p:hover{
+    transform: scale(1.5);
+}
+.project{
+    width: 100vw;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
