@@ -184,17 +184,11 @@ main{
     justify-content: center;
     color: #e7e7e7;    
 }
-#abount img{
-    margin-bottom: 5rem;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    border: 2px solid white;
-    cursor: pointer;
-    transition: transform 1s;
-}
-#abount img:hover{
-    transform: rotateY(360deg) ;
+.text-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:70px;
 }
 #abount p{
     width: 30vw;
