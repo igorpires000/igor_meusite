@@ -139,3 +139,24 @@ main section{
     background: #445c42;
     clip-path: circle(800px at right 1000px);
 }
+@media (max-width:738px) {
+    .navigation ul {
+        animation: fadeOut 0.1s linear;
+        animation-fill-mode: forwards;
+    }
+    .circle{
+        animation: fadeOut 0.1s linear;
+        animation-fill-mode: forwards;
+    }
+@keyframes fadeOut {
+    from{opacity: 0;}
+    to{opacity: 0;}
+}
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-img img{
+        margin-top: 4rem;
+    }
+}
