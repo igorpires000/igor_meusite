@@ -98,3 +98,15 @@
 .header.dark .text p{
     color: #fff;
 }
+
+@media (max-width: 738px){
+    .icon{
+        position: absolute;
+        margin: auto;
+        top: 28%;
+        right: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
