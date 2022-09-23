@@ -118,15 +118,23 @@ a:hover{
         top: -7px;
     }
     /*Conteúdo*/
-    .title-1{
-        position: relative;
-        margin: auto;
-        margin-top: 3rem;
+    .title-1 h2{
+        animation: fadeOut 0.1s linear;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeOut{
+        from{opacity: 0;}
+        to{opacity: 0;}
     }
     #abount{
         display: flex;
         flex-direction: column;
         margin-top: 55rem;
+    }
+    #abount p {
+        display: flex;
+        text-align: center;
+        margin-bottom: 7rem;
     }
     .main{
         display: flex;
@@ -146,6 +154,7 @@ a:hover{
     #contact{
         margin-top: 40rem;
     }
+    
     
 }
 /*Header finalizado*/
