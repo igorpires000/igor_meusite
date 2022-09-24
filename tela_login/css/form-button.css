@@ -1,0 +1,25 @@
+.form-button{
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    border-radius: 50px;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .7s;
+}
+.form-button:hover{
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+}
+.form-button-light{
+    color: var(--secundary-color);
+    border: 2px solid var(--secundary-color);
+}
+.form-button-light:hover{
+    background-color: var(--secundary-color);
+    color: var(--primary-color) ;
+}
