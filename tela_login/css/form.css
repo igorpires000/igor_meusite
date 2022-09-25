@@ -28,3 +28,18 @@
     z-index: 1;
     opacity: 1;
 }
+
+@media(max-width: 768px){
+    .form{
+        width: 100%;
+    }
+    .form-register{
+        position: absolute;
+        transform: translateX(100%);
+        background-color: var(--primary-color);
+        color: var(--secundary-color);
+    }
+    .login-container.move .form-register{
+        transform: translateX(0%);
+    }
+}
