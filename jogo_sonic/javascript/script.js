@@ -1,29 +1,3 @@
-/*let quad1 = document.getElementById("q1");
-
-
-
-quad1.addEventListener("mouseover", ()=>{
-    quad1.style.backgroundColor = "#fff"
-})
-quad1.addEventListener("mouseout",()=>{
-    quad1.style.backgroundColor = ""
-})
-quad1.addEventListener("click", ()=>{
-    quad1.style.border = "2px solid black" 
-})
-quad1.addEventListener("mousemove", ()=>{
-    quad1.className = "ipp"
-})*/
-
-/*const god = document.getElementById("meclica");
-const cab = document.getElementById("cab");
-
-god.addEventListener("click", () => {
-    if(cab.classList){
-        cab.classList.toggle("open")
-        
-    }
-})*/
 
 const sonic = document.querySelector('.sonic');
 const robot = document.querySelector('.robotnik');
