@@ -241,7 +241,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 3rem ;    
+    padding: 0 3rem ; 
+    gap: 30px;   
 }
 .main-1 img{
     width: 100px;
@@ -263,6 +264,14 @@ main{
     border-radius: 10px;
 }
 .main-3{
+    width: 50vh;
+    height: 100%;
+    background-image: url("../img/image-3.jpg");
+    background-size: 50vh 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;   
+}
+.main-4{
     width: 50vh;
     height: 100%;
     background-image: url("../img/image-3.jpg");
