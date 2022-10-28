@@ -152,7 +152,7 @@ a:hover{
         margin-bottom: 1rem;
     }
     #contact{
-        margin-top: 40rem;
+        margin-top: 60rem;
     }
     
     
@@ -274,7 +274,7 @@ main{
 .main-4{
     width: 50vh;
     height: 100%;
-    background-image: url("../img/image-3.jpg");
+    background-image: url("../img/image-4.jpg");
     background-size: 50vh 100%;
     background-repeat: no-repeat;
     border-radius: 10px;   
